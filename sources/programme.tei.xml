@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Programme de la journée</title>
+				<author>Emmanuel Château-Dutier</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Université de Montréal (UdeM)</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Ce document est nativement numérique.</p>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change>
+				<date when="2016-04-28">2016-04-28</date>
+				<name>Emmanuel Château-Dutier, creation</name>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<titlePage xml:lang="fr">
+				<titlePart>00-Programme</titlePart>
+				<docImprint>Introduction à XML | Édition numérique, 25-29 avril 2016</docImprint>
+				<note><ref target="https://github.com/tei-fr/formUdem2016-04">Répertoire GitHub</ref> | <ref target="00-programme.html">Programme</ref></note>
+			</titlePage>
+		</front>
+		<body>
+			<div rend="slide" xml:lang="fr">
+				<div>
+					<div>
+						<head>Objectifs</head>
+						<list>
+							<item>Introduction à l’univers XML (langages et exemples de logiciels)</item>
+							<item>Proposer un aperçu de l’édition critique</item>
+							<item>Expérimenter l’utilisation de la Text Encoding Initiative</item>
+						</list>
+					</div>
+					<div>
+						<head>Contenus</head>
+						<list>
+							<item>Syntaxe XML et modèles</item>
+							<item>Chaîne de traitement de documents XML</item>
+							<item>Présentation de la Text Encoding Initiative</item>
+							<item>Introduction à l’édition critique avec XML-TEI</item>
+						</list>
+					</div>
+				</div>
+			</div>
+			<div rend="slide" xml:lang="fr">
+				<div>
+					<head><hi>Première</hi> journée : pourquoi produire un modèle ?</head>
+					<list type="gloss">
+						<label>08h30-09h00</label>
+						<item>
+							<ref target="00-programme.html">Introduction</ref>
+						</item>
+						<label>09h-09h45</label>
+						<item>
+							<ref target="01-editionNumerique.html">La production d’une édition numérique</ref>
+						</item>
+						<label>09h45-10h15</label>
+						<item>pause</item>
+						<label>10h15-12h</label>
+						<item>
+							<ref target="02-teiGeneralites.html">Ce que propose la TEI</ref>
+						</item>
+						<label>12h-13h30</label>
+						<item>pause dejeuner</item>
+						<label>13h30-14h00</label>
+						<item>
+							<ref target="03-organisation.html">Savoir manipuler les Guidelines et les spécifications</ref>
+						</item>
+						<label>14h00-14h30</label>
+						<item>
+							<ref target="04-personnalisation.html">Personnaliser la TEI</ref>
+						</item>
+						<label>14h30-15h00</label>
+						<item>TP01 : Installation du module ODD d’Oxygen</item>
+						<label>15h00-16h00</label>
+						<item>TP02 : Premier exercice d’encodage de ses documents</item>
+						<label>16h00-16h30</label>
+						<item>pause</item>
+						<label>16h30-17h30</label>
+						<item>TP03 : Quizz TEI</item>
+					</list>
+				</div>
+				<div rend="notes">
+					<note>Objectifs : Introduire la notion de langage de balisage XML, et proposer une première initiation à XML-TEI.</note>
+				</div>
+			</div>
+			<div rend="slide">
+				<div>
+					<div>
+						<head>Télécharger les supports de cours</head>
+						<list>
+							<item>accéder à l’adresse http://github.com/tei-fr/formUdem2016-04</item>
+							<item>téléchargez comme fichier zip</item>
+							<item>ou, si vous êtes familliers de git, clonez le répertoire</item>
+						</list>
+					</div>
+					<div>
+						<head>Organisation du répertoire</head>
+						<list>
+							<item><code>presentations/</code> présentations au format HTML</item>
+							<item><code>exemples/</code> exemples XML</item>
+							<item><code>images/</code> contenus graphiques</item>
+							<item><code>ressources/</code> matériel d’accompagnement</item>
+							<item><code>schemas/</code> schémas distribués pour la formation</item>
+							<item><code>exercices/</code> contient les dossiers de travaux pratiques</item>
+							<item><code>sources/</code> sources tei des présentations</item>
+							<item><code>xsl/</code> transformations xslt</item>
+						</list>
+					</div>
+				</div>
+			</div>
+			<div rend="slide" xml:lang="fr">
+				<div>
+					<head>Utiliser ces diapositives</head>
+					<list>
+						<item><ident>←</ident>, <ident>↑</ident>, <ident>Pg Up</ident>, <ident>k</ident> : aller à la page précédente</item>
+						<item><ident>→</ident>, <ident>↓</ident>, <ident>Pg Dn</ident>, <ident>Espace</ident>, <ident>j</ident> : aller à la page suivante</item>
+						<item><ident>Home</ident> : aller à la première diapositive</item>
+						<item><ident>End</ident> : aller à la dernière diapositive</item>
+						<item><ident>f</ident> : afficher en plein écran</item>
+						<item><ident>Esc</ident> : quitter le mode plein écran</item>
+						<item><ident>?</ident>, <ident>h</ident> : afficher l’aide</item>
+					</list>
+				</div>
+			</div>
+			<div>
+				<div rend="title" xml:lang="fr">
+					<head>Pour <ref target="01-editionNumerique.html">commencer</ref></head>
+					<note><ref target="#index">Revenir au début</ref> | <ref target="00-programme.html">Programme</ref></note>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
