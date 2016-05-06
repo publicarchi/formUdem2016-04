@@ -274,7 +274,8 @@
             <list>
               <item>le nom de l’élément obéit aux contraintes syntaxiques des noms XML</item>
               <item>Les <soCalled>éléments</soCalled> décomposent le texte en unités d’information</item>
-              <item><hi rend="bold">Tout élément a un nom</hi> (parfois appelé <soCalled>identificateur générique</soCalled>), ici c’est « p ».</item>
+              <item><hi rend="bold"
+                  >Tout élément a un nom</hi> (parfois appelé <soCalled>identificateur générique</soCalled>), ici c’est « p ».</item>
               <item>Un élément peut contenir du texte et/ou d’autres éléments (<soCalled>contenu mixte</soCalled>), ou être vide.</item>
               <item>Il existe un et un seul élément englobant tous les autres, encodé en premier, juste après le prologue : c’est l’<soCalled>élément racine</soCalled>.</item>
             </list>
@@ -381,7 +382,7 @@
               </TEI>
             </egXML>
             <list>
-              <item></item>
+              <item/>
             </list>
           </div>
           <div type="comments">
@@ -434,10 +435,14 @@
           <div>
             <head><hi>Modèles de documents</hi> ou schéma</head>
             <p>Rappel : définissent les contraintes que doit respecter une certaine classe de documents Diverses syntaxes peuvent être utilisées pour écrire de tels modèles :<list>
-              <item>celle des DTD (partie intégrante de la norme XML 1.0), la plus utilisée encore aujourd’hui ;</item>
-              <item>celle, exprimée en XML, des schémas XML (norme du W3C publiée en mai 2001 ; 2<hi rend="superscript">e</hi> édition octobre 2004 ; voir <ref target="http://www.w3.org/XML/Schema">http://www.w3.org/XML/Schema</ref>) ;</item>
-              <item>celle des schémas RelaxNG (norme ISO/IEC 19757-2 depuis 2003, amendée en 2008 ; voir <ref target="http://www.relaxng.org/">http://www.relaxng.org/</ref>).</item>
-            </list>
+                <item>celle des DTD (partie intégrante de la norme XML 1.0), la plus utilisée encore aujourd’hui ;</item>
+                <item>celle, exprimée en XML, des schémas XML (norme du W3C publiée en mai 2001 ; 2<hi
+                    rend="superscript">e</hi> édition octobre 2004 ; voir <ref
+                    target="http://www.w3.org/XML/Schema"
+                  >http://www.w3.org/XML/Schema</ref>) ;</item>
+                <item>celle des schémas RelaxNG (norme ISO/IEC 19757-2 depuis 2003, amendée en 2008 ; voir <ref
+                    target="http://www.relaxng.org/">http://www.relaxng.org/</ref>).</item>
+              </list>
             </p>
             <p>Beaucoup d’applications XML sont validantes, ainsi un processeur XSLT n’opérera de transformation à partir d’un document XML associé à un modèle que si ce document XML est valide.</p>
           </div>
@@ -448,23 +453,26 @@
           </div>
         </div>
       </div>
-      <div type="part">
-        <div type="title" xml:lang="fr">
-          <div>
-            <head>Sources et bibliographie</head>
-          </div>
-        </div>
-        <div type="slide" xml:lang="fr">
-          <div>
-            <head>Orientations bibliographiques</head>
-            <list>
-              <item>A gentle introduction to XML : <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html">http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html</ref></item>
-              <item>XML en concentré : manuel de référence / Elliotte Rusty Harold &amp; W. Scott Means ; traduction de Philippe Ensarguet, Frédéric Laurent. - 3e éd. - Paris : O'Reilly, 2005. ISBN 2-84177-353-1 EAN 9782841773534 ;</item>
-              <item>L’espace XML francophone : actualités, discussions, articles et billets, sur le site Web <ref target="http://xmlfr.org/">http://xmlfr.org/</ref></item>
-            </list>
-          </div>
+    </body>
+    <back>
+      <div type="title" xml:lang="fr">
+        <div>
+          <head>Sources et bibliographie</head>
         </div>
       </div>
-    </body>
+      <div type="slide" xml:lang="fr">
+        <div>
+          <head>Orientations bibliographiques</head>
+          <list>
+            <item>A gentle introduction to XML : <ref
+                target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html"
+                >http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html</ref></item>
+            <item>XML en concentré : manuel de référence / Elliotte Rusty Harold &amp; W. Scott Means ; traduction de Philippe Ensarguet, Frédéric Laurent. - 3e éd. - Paris : O'Reilly, 2005. ISBN 2-84177-353-1 EAN 9782841773534 ;</item>
+            <item>L’espace XML francophone : actualités, discussions, articles et billets, sur le site Web <ref
+                target="http://xmlfr.org/">http://xmlfr.org/</ref></item>
+          </list>
+        </div>
+      </div>
+    </back>
   </text>
 </TEI>
