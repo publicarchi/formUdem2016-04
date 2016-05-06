@@ -455,6 +455,7 @@
       </div>
     </body>
     <back>
+      <div type="part">
       <div type="title" xml:lang="fr">
         <div>
           <head>Sources et bibliographie</head>
@@ -472,6 +473,7 @@
                 target="http://xmlfr.org/">http://xmlfr.org/</ref></item>
           </list>
         </div>
+      </div>
       </div>
     </back>
   </text>
